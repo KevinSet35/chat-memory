@@ -1,5 +1,5 @@
 {
-  "name": "chat-memory",
+  "name": "@kevinsetayesh/chat-memory",
   "version": "1.0.0",
   "description": "A reusable three-tier memory system for AI chatbots, providing conversation context management across applications.",
   "type": "module",
@@ -27,8 +27,19 @@
     "type": "git",
     "url": "git+https://github.com/KevinSet35/chat-memory.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chat",
+    "memory",
+    "context-window",
+    "token-management",
+    "conversation-history",
+    "llm",
+    "ai",
+    "chatbot",
+    "summarization",
+    "sliding-window"
+  ],
+  "author": "kevinsetayesh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KevinSet35/chat-memory/issues"
