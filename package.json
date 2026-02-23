@@ -1,0 +1,43 @@
+{
+  "name": "chat-memory",
+  "version": "1.0.0",
+  "description": "A reusable three-tier memory system for AI chatbots, providing conversation context management across applications.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSet35/chat-memory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSet35/chat-memory/issues"
+  },
+  "homepage": "https://github.com/KevinSet35/chat-memory#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
